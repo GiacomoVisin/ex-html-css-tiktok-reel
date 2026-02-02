@@ -116,6 +116,15 @@ footer {
 		padding-bottom: 28px
 	}
 
+
+	#plus{
+		position:absolute;
+		left: 40%;
+		top: 41px;
+		z-index: 2;
+		font-size: 20px;
+	}
+
 	#tiktokbtn{
 		width: 50px;
 		position: absolute;
