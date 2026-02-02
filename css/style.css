@@ -33,8 +33,6 @@ video {
 	right: 0;
 	
 
-	/* Inserisci qui sotto 
-	le tue regole, se necessario. */
 }
 
 /* header elements */
@@ -80,7 +78,7 @@ video {
 	
 }
 
-
+/* header elements */
 
 
 
@@ -96,19 +94,42 @@ footer {
 	bottom: 0;
 	color: #fff;
 
-	/* Inserisci qui sotto 
-	le tue regole, se necessario. */
+
 }
 
 /* Sidebar */
 .sidebar {
+	display:flex;
+	justify-content: space-between;
+	flex-direction:column;
+	align-items:center;
+	color: white;
+	font-size: 2rem;
 	padding: 0 16px;
 	position: absolute;
 	right: 0;
 	top: 40%;
 
-	/* Inserisci qui sotto 
-	le tue regole, se necessario. */
+	
+	p{
+		font-size: 13px;
+		padding-bottom: 28px
+	}
+
+	#tiktokbtn{
+		width: 50px;
+		position: absolute;
+		top: 30px
+	}
+
+	
+}
+
+
+/* Sidebar Elements */
+
+#booleanlogo{
+	width: 70px
 }
 
 /* ---------------------
