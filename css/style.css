@@ -39,6 +39,53 @@ video {
 
 /* header elements */
 
+.navbar{
+	display:flex;
+	flex-direction:row;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0.7rem 1.3rem;
+	font-size: 1.3rem;
+	color:white;
+	font-weight: 500;
+	
+}
+
+.navbar_p{
+	display:flex;
+	flex-direction:row;
+	align-items: center;
+	gap: 0.7rem;
+	font-size: 1.1rem;
+	position:relative;
+
+	#dash{
+		font-size: 3rem;
+		position:absolute;
+		top: 0.1px;
+		right: 0.09rem;
+		translate: 5% -5%
+		
+
+	}
+
+
+	#circle{
+		width: 8px;
+		position: absolute;
+		top:0px;
+		right: 51px;
+		translate: -20% -50%;
+	}
+	
+}
+
+
+
+
+
+
+
 
 /* Footer */
 
