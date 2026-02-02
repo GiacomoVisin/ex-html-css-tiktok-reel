@@ -18,7 +18,8 @@ video {
 }
 
 .reel-page {
-	height: 100vh; /* ti incuriosisce? */
+	height: 100vh;
+	/* ti incuriosisce? */
 	max-width: 512px;
 	min-width: 400px;
 	position: relative;
@@ -31,55 +32,76 @@ video {
 	top: 0;
 	left: 0;
 	right: 0;
-	
+
 
 }
 
 /* header elements */
 
-.navbar{
-	display:flex;
-	flex-direction:row;
+.navbar {
+	display: flex;
+	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
 	padding: 0.7rem 1.3rem;
 	font-size: 1.3rem;
-	color:white;
+	color: white;
 	font-weight: 500;
-	
+
 }
 
-.navbar_p{
-	display:flex;
-	flex-direction:row;
+.navbar_p {
+	display: flex;
+	flex-direction: row;
 	align-items: center;
 	gap: 0.7rem;
 	font-size: 1.1rem;
-	position:relative;
-
-	#dash{
-		font-size: 3rem;
-		position:absolute;
-		top: 0.1px;
-		right: 0.09rem;
-		translate: 5% -5%
-		
-
-	}
+	position: relative;
+}
 
 
-	#circle{
-		width: 8px;
-		position: absolute;
-		top:0px;
-		right: 51px;
-		translate: -20% -50%;
-	}
-	
+
+#circle {
+	width: 8px;
+	position: absolute;
+	top: 0px;
+	right: 51px;
+	transform:translate(-20%, -50%);
+}
+
+
+#dash {
+	font-size: 3rem;
+	position: absolute;
+	top: 0.1px;
+	right: 0.09rem;
+	transform:translate(-5%, -5%);
+
+
 }
 
 /* header elements */
 
+
+/* main */
+
+main {
+	position: absolute;
+	left: 0;
+	top: 700px;
+	width: 400px;
+	height: 100px;
+}
+
+.pmain {
+	color: white;
+	margin-top: 0.7rem;
+	padding-left: 1rem;
+	padding-top: 1rem;
+	line-height: 1;
+}
+
+/* main */
 
 
 
@@ -97,54 +119,56 @@ footer {
 
 }
 
+/* footer */
+
+
 /* Sidebar */
 .sidebar {
-	display:flex;
+	display: flex;
 	justify-content: space-between;
-	flex-direction:column;
-	align-items:center;
+	flex-direction: column;
+	align-items: center;
 	color: white;
 	font-size: 2rem;
 	padding: 0 16px;
 	position: absolute;
 	right: 0;
-	top: 40%;
-
-	
-	p{
-		font-size: 13px;
-		padding-bottom: 28px
-	}
-
-
-	#plus{
-		position:absolute;
-		left: 40%;
-		top: 41px;
-		z-index: 2;
-		font-size: 20px;
-	}
-
-	#tiktokbtn{
-		width: 50px;
-		position: absolute;
-		top: 30px
-	}
-
-	
+	top: 32%;
 }
+
+
+#tiktokbtn {
+	width: 50px;
+	position: absolute;
+	top: 30px;
+}
+
+#plusbtn {
+	position: absolute;
+	left: 40%;
+	top: 41px;
+	z-index: 2;
+	font-size: 20px;
+}
+
+
+
+.pside {
+	font-size: 13px;
+	padding-bottom: 28px
+}
+
+/* sidebar */
+
 
 
 /* Sidebar Elements */
 
-#booleanlogo{
-	width: 70px
+#booleanlogo {
+	width: 70px;
 }
 
-/* ---------------------
-Regole per evidenziare i blocchi 
-da rimuovere una volta concluso
---------------------- */
+
 .debug footer {
 	min-height: 100px;
 	border: 2px dashed #fff;
