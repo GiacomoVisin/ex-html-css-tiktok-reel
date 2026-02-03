@@ -105,13 +105,6 @@ main {
 
 
 
-
-
-
-.profileimg img{
-	right: 0;
-}
-
 /* Sidebar */
 .sidebar {
 	display: flex;
@@ -158,6 +151,7 @@ main {
 	width: 70px;
 }
 
+/* Sidebar Elements */
 
 
 /* Footer */
